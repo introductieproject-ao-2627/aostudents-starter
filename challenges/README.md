@@ -130,7 +130,7 @@ __Om de challenges opdracht volledig te voltooien moet je minstens de helft (naa
 
 We rekenen er niet op, maar het kan zijn dat we veranderingen aan de challenges maken terwijl je eraan bezig bent. Sowieso posten we het op Toledo met een verwijzing naar deze instructies.
 
-Alle veranderingen maken we in deze repository:  `https://github.com/UCLL-introproject/aostudents-starter.git`. Jammer genoeg zal jouw repository niet automatisch geüpdatet worden. 
+Alle veranderingen maken we in deze repository:  `https://github.com/introductieproject-ao-2627/aostudents-starter.git`. Jammer genoeg zal jouw repository niet automatisch geüpdatet worden. 
 
 Volg de volgende commando's (eerst moet je natuurlijk onze Git / GitHub guide gevolgd hebben)
 
@@ -153,7 +153,7 @@ Dit betekent dat je remotes niet correct geconfigureerd zijn.
 
 Commando:
 ```bash
-git remote add upstream https://github.com/UCLL-introproject/aostudents-starter.git
+git remote add upstream https://github.com/introductieproject-ao-2627/aostudents-starter.git
 ```
 
 en probeer nog eens te pullen
