@@ -44,7 +44,7 @@ De folders met folders erin (bvb de folder 'crack' bevat 'hash') zijn puur om di
 
 # Een challenge oplossen
 
-Laten we beginnen bij het begin, de challenge `artificial-intelligence/creatures`. De folder bevat onder andere de volgende files:
+Laten we beginnen bij het begin, de challenge `challenges/artificial-intelligence/creatures`. De folder bevat onder andere de volgende files:
 
 * `description.md` bevat de opgave van de challenge. Je begint de challenge door deze file te openen en door te lezen. Het type van de file is een markdown file (net als deze trouwens), die bevatten altijd tekst, en zijn leesbaar voor mensen (vreemde zin misschien, maar sommige bestanden zijn enkel leesbaar voor computers)
 * `verify.py` is een Python file, vol met code die de lectoren geschreven hebben om automatisch je oplossing te verbeteren
@@ -54,26 +54,26 @@ Om de challenge op te lossen, moet je dus `description.md` lezen, een nieuwe fil
 
 Het leuke aan de challenges is dat je meteen weet of het antwoord correct is of niet. Daarvoor gebruiken vscode's functionaliteit `Python Test Framework` om testen in python te runnen (onze `verify.py`'s). Klik het icoontje van een fles aan de linkerkant van vscode.
 
-![](./assets/images/workflow_vscode_test_flask.png)
+![](challenges/assets/images/workflow_vscode_test_flask.png)
 
 Vraagt vscode om de test omgeving te configureren (zoals onderstaande afbeelding)?
 
-![](./assets/images/workflow_vscode_test_configure.png)
+![](challenges/assets/images/workflow_vscode_test_configure.png)
 
 Volg dan de volgende stappen: 
 * Klik 'Configure Python Test'
-* Een popup bovenaan in het midden zou je de optie 'pytest pytest framework' moeten geven. Klik erop ![](./assets/images/workflow_vscode_test_pytest_framework.png)
-* Selecteer daarna '. Root directory' ![](./assets/images/workflow_vscode_test_pytest_root.png)
+* Een popup bovenaan in het midden zou je de optie 'pytest pytest framework' moeten geven. Klik erop ![](challenges/assets/images/workflow_vscode_test_pytest_framework.png)
+* Selecteer daarna '. Root directory' ![](challenges/assets/images/workflow_vscode_test_pytest_root.png)
 
 Als die configuratie goed gelukt is, zou je (met de fles geselecteerd) alle challenges moeten zien in een hierarchische structuur, met een grijze cirkel ernaast
 
-![](./assets/images/workflow_vscode_test_discovered.png)
+![](challenges/assets/images/workflow_vscode_test_discovered.png)
 
 Ieder element is een challenge, en iedere challenge is een pytest. Ik zeg het maar, want de kans is groot dat ik in de toekomst nog eens 'test' ga gebruiken wanneer ik 'challenge' bedoel.
 
 De grijze cirkel toont aan dat de status van de challenges *onbekend* is, we weten niet of de challenge correct of niet correct opgelost is. De reden daarvoor is dat we de challenge nog niet 'gerund' hebben, of in Visual Studio, de test nog niet gerund hebben. Klik de dubbele pijlen bovenaan, aangeduid met een oranje pijl in de afbeelding hierboven. Er zou een hoop moeten bewegen in vscode, en uiteindelijk zouden alle tests moeten falen/rood zijn.
 
-![](./assets/images/workflow_vscode_test_failed.png)
+![](challenges/assets/images/workflow_vscode_test_failed.png)
 
 De meer dan honderd tests die vroeger een onbekende status hadden, falen. Hoera, we zijn al verder! Dat is niet sarcastisch bedoeld, we hebben effectief vooruitgang gemaakt. Als IT'er zijn we soms blij als we weten dat de server in brand stond, als we daarvoor paniekerig zochten waarom de website niet werkt ;)
 
