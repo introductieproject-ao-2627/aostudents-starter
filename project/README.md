@@ -9,7 +9,6 @@ Kort samengevat:
 * Volg de [tutorial](https://www.youtube.com/watch?v=e3YkdOXhFpQ) en zet alle bestanden in **deze** map. Maak een aparte commit wanneer de tutorial klaar is.
 * Hou je logboek bij in [`logboek.md`](logboek.md) (staat al klaar, met het juiste formaat).
 * Werk daarna ongeveer 20 uur aan je eigen uitbreiding.
-* Vraag minstens 2 dagen voor de deadline feedback via e-mail.
 
 ## Pygame installeren
 

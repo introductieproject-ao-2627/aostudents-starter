@@ -4,6 +4,7 @@ Deze repository heeft twee delen:
 
 * `challenges/` – een reeks kleine opdrachten over allerlei IT-onderwerpen. Alles daarover lees je hieronder.
 * `project/` – je Pygame-project (Blackjack + eigen uitbreiding) en je logboek. De opdracht staat op de website: [Project](https://ucll-introproject.github.io/aan-de-slag/project.html). In de map zelf vind je een korte [README](project/README.md) en een klaargezet [logboek](project/logboek.md).
+* `feedback.txt` en `bronnen.txt` – de twee schrijfopdrachten van de [Communicatie](https://ucll-introproject.github.io/aan-de-slag/communicatie.html)-pagina. De bestanden staan al klaar met de vereiste structuur; je hoeft ze enkel in te vullen.
 
 ## Wat moet je installeren?
 
