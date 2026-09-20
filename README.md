@@ -18,6 +18,16 @@ Moet je alle challenges maken? Absoluut niet (gelukkig). We hebben veel challeng
 
 __Om de challenges opdracht volledig te voltooien moet je minstens 80 challenges oplossen, en verdedigen op het mondeling examen. Je mag zelf kiezen van welke categorieën je de challenges wilt oplossen.__
 
+‼️ **Deadlines voor het indienen van de challenges en het examenmoment**
+
+De challenges en het project worden enkele dagen voor het examenblok ingediend. Ze vormen de basis voor het individuele examengesprek. De deadline is dezelfde voor de challenges en het project.
+
+* Examenblok 1 – 08/11/2026
+* Examenblok 2 – 10/01/2027
+* Examenblok 3 – 13/03/2027
+* Examenblok 4 – 06/06/2027
+* Examenblok 5 – 16/08/2027
+
 Er zijn op dit moment 119 challenges; je moet er dus minstens 80 oplossen. Zo zijn ze verdeeld:
 
 | Categorie | Aantal | Waarover |
