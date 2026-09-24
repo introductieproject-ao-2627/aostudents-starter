@@ -13,8 +13,12 @@ Kort samengevat:
 
 ## Pygame installeren
 
+We gebruiken `pygame-ce` (Community Edition): dat werkt ook met de nieuwste Python versies, terwijl de gewone `pygame` dat niet doet. In je code schrijf je gewoon nog steeds `import pygame`. Voer in deze map uit:
+
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
+
+Heb je eerder al de gewone `pygame` geïnstalleerd? Verwijder die dan eerst met `pip3 uninstall pygame`: `pygame` en `pygame-ce` mogen niet samen geïnstalleerd zijn.
 
 Lukt dat niet? Kijk op de [Software](https://ucll-introproject.github.io/aan-de-slag/installatie.html)-pagina of stel je vraag via de kanalen op de [Communicatie](https://ucll-introproject.github.io/aan-de-slag/communicatie.html)-pagina.
