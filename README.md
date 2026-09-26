@@ -72,7 +72,7 @@ De tijdschatting is een richtlijn. Zit je er ver over? Dat is geen probleem, maa
 
 # Structure 
 
-De challenges zijn georganiseerd aan de hand van directories (mappen). Open de hele repository (de map `aostudents-starter`, met daarin `challenges` en `project`) in VS Code via *File > Open Folder*. Open dus niet een enkele challenge of enkel de map `challenges`: dan vindt VS Code de testen niet of maar gedeeltelijk.
+De challenges zijn georganiseerd aan de hand van directories (mappen). Open de hele repository (de map `introductie-project` die je gecloned hebt, met daarin `challenges` en `project`) in VS Code via *File > Open Folder*. Open dus niet een enkele challenge of enkel de map `challenges`: dan vindt VS Code de testen niet of maar gedeeltelijk.
 
 Als je de challenges correct hebt gedownload/geopend, zie je aan de linkerkant (kan verplaatst zijn) de volgende structuur. Het kan zijn dat je wat folders moet openklappen, en het kan ook lichtjes afwijken van wat hier staat (dat betekent gewoon dat wij nog een paar wijzigingen gedaan hebben). De nummers vooraan de mappen dienen enkel om ze in een logische volgorde te zetten.
 
