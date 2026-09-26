@@ -206,7 +206,7 @@ Alle veranderingen maken we in deze repository:  `https://github.com/introductie
 Open een terminal in de hoofdmap van je repository (de map met `README.md` en `challenges` erin) en volg de volgende commando's (eerst moet je natuurlijk onze Git / GitHub guide gevolgd hebben)
 
 ```bash
-git -c merge.directoryRenames=false pull --no-rebase --no-edit upstream main
+git -c merge.directoryRenames=false pull --no-rebase --no-edit --allow-unrelated-histories -X theirs upstream main
 ```
 
 Kopieer dit commando exact. Een gewone `git pull` is niet genoeg: die haalt enkel je eigen repository binnen, niet onze aanpassingen.
@@ -216,7 +216,7 @@ Dat *zou* het moeten zijn. Als je een error ziet, is het hoogstwaarschijnlijk ee
 
 **Error 1: unknown remote**
 ```bash
-git -c merge.directoryRenames=false pull --no-rebase --no-edit upstream main
+git -c merge.directoryRenames=false pull --no-rebase --no-edit --allow-unrelated-histories -X theirs upstream main
 
 fatal: 'upstream' does not appear to be a git repository
 fatal: Could not read from remote repository.
@@ -231,7 +231,7 @@ git remote add upstream https://github.com/introductieproject-ao-2627/aostudents
 
 en voer daarna het pull-commando opnieuw uit:
 ```bash
-git -c merge.directoryRenames=false pull --no-rebase --no-edit upstream main
+git -c merge.directoryRenames=false pull --no-rebase --no-edit --allow-unrelated-histories -X theirs upstream main
 ```
 
 **Error 2: uncommitted changes**
