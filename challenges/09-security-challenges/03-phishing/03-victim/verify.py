@@ -1,6 +1,7 @@
 
 import pathlib
 import re
+import urllib.parse
 import urllib.request
 from functools import cache
 import json
@@ -36,7 +37,7 @@ def load_solution():
 
 def derive_url():
     path = determine_relative_path()
-    return f"{url}/{path}"
+    return f"{url}/{urllib.parse.quote(path)}"
 
 def create_request_payload():
     solution = load_solution()
