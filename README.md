@@ -203,18 +203,20 @@ We rekenen er niet op, maar het kan zijn dat we veranderingen aan de challenges 
 
 Alle veranderingen maken we in deze repository:  `https://github.com/introductieproject-ao-2627/aostudents-starter.git`. Jammer genoeg zal jouw repository niet automatisch geüpdatet worden. 
 
-Volg de volgende commando's (eerst moet je natuurlijk onze Git / GitHub guide gevolgd hebben)
+Open een terminal in de hoofdmap van je repository (de map met `README.md` en `challenges` erin) en volg de volgende commando's (eerst moet je natuurlijk onze Git / GitHub guide gevolgd hebben)
 
 ```bash
-git pull upstream main
+git -c merge.directoryRenames=false pull --no-rebase --no-edit upstream main
 ```
+
+Kopieer dit commando exact. Een gewone `git pull` is niet genoeg: die haalt enkel je eigen repository binnen, niet onze aanpassingen.
 
 Dat *zou* het moeten zijn. Als je een error ziet, is het hoogstwaarschijnlijk een van de volgende twee:
 
 
 **Error 1: unknown remote**
 ```bash
-git pull upstream main
+git -c merge.directoryRenames=false pull --no-rebase --no-edit upstream main
 
 fatal: 'upstream' does not appear to be a git repository
 fatal: Could not read from remote repository.
@@ -227,7 +229,10 @@ Commando:
 git remote add upstream https://github.com/introductieproject-ao-2627/aostudents-starter.git
 ```
 
-en probeer nog eens te pullen
+en voer daarna het pull-commando opnieuw uit:
+```bash
+git -c merge.directoryRenames=false pull --no-rebase --no-edit upstream main
+```
 
 **Error 2: uncommitted changes**
 
