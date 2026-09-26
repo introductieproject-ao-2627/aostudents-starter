@@ -37,7 +37,7 @@ The situation only gets worse if we need more people involved in the same conver
 
 ## Rivest, Shamir, Adleman
 
-Fortunately, in 1997, three men named Ron Rivest, Adi Shamir and Leonard Adleman put their heads together and found a way around this problem.
+Fortunately, in 1977, three men named Ron Rivest, Adi Shamir and Leonard Adleman put their heads together and found a way around this problem.
 Let's go back to our chest analogy.
 Alice and Bob are two friends who live far away from each other.
 Alice wants to send a secret message to Bob.
