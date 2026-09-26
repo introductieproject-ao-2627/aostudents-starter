@@ -28,12 +28,12 @@ De challenges en het project worden enkele dagen voor het examenblok ingediend. 
 * Examenblok 4 – 06/06/2027
 * Examenblok 5 – 16/08/2027
 
-Er zijn op dit moment 119 challenges; je moet er dus minstens 80 oplossen. Zo zijn ze verdeeld:
+Er zijn op dit moment 117 challenges; je moet er dus minstens 80 oplossen. Zo zijn ze verdeeld:
 
 | Categorie | Aantal | Waarover |
 |---|---|---|
 | `01-vscode` | 8 | sneltoetsen in VS Code |
-| `02-shell` | 24 | de terminal: mappen, bestanden, `find`, ImageMagick |
+| `02-shell` | 22 | de terminal: mappen, bestanden, `find`, ImageMagick |
 | `03-search` | 14 | dingen opzoeken op het internet |
 | `04-image-search` | 4 | afbeeldingen opzoeken op het internet |
 | `05-information-theory` | 19 | bits, bytes, binair, tekst, kleuren, audio, dataformaten |
@@ -44,7 +44,7 @@ Er zijn op dit moment 119 challenges; je moet er dus minstens 80 oplossen. Zo zi
 | `10-crack` | 4 | wachtwoorden kraken, verborgen data vinden |
 | `11-programming-challenge` | – | JavaScript-code schrijven, in de browser (telt niet mee) |
 
-**Je hoeft `10-crack` en `09-security-challenges` niet aan te raken om aan 80 te komen.** De eerste zes categorieën alleen al zijn er samen 90. De categorieën staan in volgorde van moeilijkheid: bovenaan staat wat je zonder voorkennis kan, onderaan staat wat echt lastig is.
+**Je hoeft `10-crack` en `09-security-challenges` niet aan te raken om aan 80 te komen.** De eerste zes categorieën alleen al zijn er samen 88. De categorieën staan in volgorde van moeilijkheid: bovenaan staat wat je zonder voorkennis kan, onderaan staat wat echt lastig is.
 
 ## Aanbevolen route
 
